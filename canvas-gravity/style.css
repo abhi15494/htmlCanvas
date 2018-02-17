@@ -1,0 +1,24 @@
+
+body{
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #f1f1f1;
+    margin: 0px;
+    display: flex;
+}
+
+h1 {
+    background: rgba(2,2,2,0.5);
+    color: #fff;
+    position: relative;
+    padding: 10px 20px;
+    z-index: 10;
+}
+
+canvas{
+    border: 1px solid #444;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    z-index: 0;
+}
